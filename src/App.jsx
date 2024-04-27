@@ -2,6 +2,7 @@ import Banner from "./components/Home/Banner/Banner"
 import NavBar from "./components/Home/NavBar/NavBar"
 import NewArrivals from "./components/Home/NewArrivals/NewArrivals"
 import Offer from "./components/Home/OfferPage/Offer"
+import Youngs from "./components/Home/Youngs/Youngs"
 import Sponsor from "./components/Home/sponsor/Sponsor"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Sponsor/>
       <NewArrivals/>
       <Offer/>
+      <Youngs/>
     </>
   )
 }
