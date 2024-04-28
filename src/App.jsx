@@ -1,4 +1,6 @@
 import Banner from "./components/Home/Banner/Banner"
+import Community from "./components/Home/Community/Community"
+import Footer from "./components/Home/Footer/Footer"
 import NavBar from "./components/Home/NavBar/NavBar"
 import NewArrivals from "./components/Home/NewArrivals/NewArrivals"
 import Offer from "./components/Home/OfferPage/Offer"
@@ -18,6 +20,8 @@ function App() {
       <Offer/>
       <Youngs/>
       <Voucher/>
+      <Community/>
+      <Footer/>
     </>
   )
 }
