@@ -6,15 +6,15 @@ import { FaArrowRight } from "react-icons/fa";
 
 const NewArrivals = () => {
   return (
-    <div className="mx-24 mt-9">
+    <div className="mx-8 md:mx-14 lg:mx-24 mt-9">
       <h2
-        className="text-4xl font-bold bg-no-repeat bg-right-bottom w-fit"
+        className="tex-xl md:text-4xl font-bold bg-no-repeat bg-right-bottom w-fit"
         style={{ backgroundImage: `url(${textBg})` }}
       >
         NEW ARRIVALS
       </h2>
       {/* card image code */}
-      <div className="mt-20 flex justify-between gap-24">
+      <div className="mt-10 md:mt-20 flex flex-col md:flex-row justify-center items-center md:justify-between gap-24">
         <div className="card card-compact w-96 bg-base-100 shadow-xl">
           <figure>
             <img src={sample1} alt="sample1" className="object-cover transition-transform duration-500 transform-gpu hover:scale-110" />
