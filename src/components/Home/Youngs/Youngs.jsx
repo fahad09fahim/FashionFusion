@@ -4,9 +4,10 @@ import youngs2 from "../../../assets/image/youngs/youngs2.png";
 
 const Youngs = () => {
   return (
-    <div className="m-24">
-      <h1 className="text-5xl font-medium  ">Young’s Favourite</h1>
-      <div className=" flex justify-center items-start mt-7 gap-8">
+    <div className="m-8 md:m-24 ">
+      <h1 className="text-xl md:text-5xl font-medium  ">Young’s Favourite</h1>
+      <div className=" flex flex-col md:flex-row justify-center items-start mt-7 gap-8">
+        
         <div>
           <img
             src={youngs1}
